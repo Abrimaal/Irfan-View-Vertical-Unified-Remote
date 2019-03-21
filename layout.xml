@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <grid>
+    <row>
+   <button id="fave_folders" text="FAVE" color="#441144" onTap="fave_a" onhold="fave_b" />
+   <button id="copy_13" text="TO 13" color="#6688aa" onTap="copy_13" onhold="move_13" />
+   <button id="copy_14" text="TO 14" color="#6688aa" onTap="copy_14" onhold="move_14" />
+   </row>
+    <row>
+    <button id="open_dir" icon="FOLDER" color="#999900" onTap="open_dir" onhold="save" /> 
+    <button id="fullscreen" icon="FULLSCREEN" color="#2233aa" onTap="fullscreen" onhold="exit" />
+	  <button id="random_img" icon="SHUFFLE" color="green"  onTap="random_img" onhold="slideshow"/>
+   </row>
+   <row>
+      <button id="red_red" icon="OFF" color="#646464" onTap="red_red" onhold="max_sat" />
+      <button id="darken" icon="OFF" color="#703000" onTap="darken" onhold="desat" />
+      <button id="brighten" icon="ON" color="#804000" onTap="brighten" onhold="sat" />
+   </row>
+   <row>
+      <button id="mirror_h" icon="DOCSWITCH" color="purple" onTap="mirror_h" onhold="mirror_v" />
+      <button id="rotate_left" icon="ROTATELEFT" color="purple" onTap="rotate_left" onhold="rl45" />
+      <button id="rotate_right" icon="ROTATERIGHT" color="purple" onTap="rotate_right" onhold="rr45" />
+   </row>
+   <row>
+      <button id="play_prev" icon="ARROWLEFT" color="#22aa00" onTap="play_prev" onhold="back_five" />
+      <button id="play_next" icon="ARROWRIGHT" color="#22aa00" onTap="play_next"  onhold="fwd_five" />
+    </row>
+	  <row>
+	    <button id="reload" icon="REFRESH" color="red" onTap="toggle_size" onhold="reload" />
+      <button id="zoom_out" icon="ZOOMOUT" color="#550055" onTap="zoom_out" onhold="size_full" />
+      <button id="zoom_in" icon="ZOOMIN" color="#550055" onTap="zoom_in" onhold="size_real" />
+	  </row>
+    <row>
+      <button id="cur_left" icon="LEFT" color="#2233aa" onTap="cur_left" onhold="undo" />
+      <button id="cur_down" icon="DOWN" color="#2233aa" onTap="cur_down" onhold="folder_down" />
+      <button id="cur_up" icon="UP" color="#2233aa" onTap="cur_up" onhold="folder_up" />
+      <button id="cur_right" icon="RIGHT" color="#2233aa" onTap="cur_right" onhold="redo" />
+    </row>
+  </grid>
+</layout>
